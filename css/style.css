@@ -113,9 +113,14 @@ header.sticky {
 .ft_logo a {
 	height: 49px;
 	width: 230px;
-	background: url(../images/logo.png) no-repeat center left;
 	display: block;
-	text-indent: -9999em;
+	color: #fff;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: cursive;
+}
+.ft_logo a:hover {
+	text-decoration: none;;
 }
 .sticky .logo a {
 	background: url(../images/logo.png) no-repeat center left !important;

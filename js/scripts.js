@@ -44,7 +44,12 @@ if ($(this).scrollTop() > 1){
 	
 
 $(document).ready(function(){
-
+  //replace progress bar text
+  $('.progress-bar').each(function(i, obj) {
+    if($(this).attr('data-text')!=''){
+      $(this).find('span').html($(this).attr('data-text'));
+    }
+  });
 	/* Menu overlay */
 	 $('.btn-close').fadeOut(200);
 	 
@@ -98,7 +103,6 @@ $(document).ready(function(){
     }
   });
 });
-	
 });	
 
 	
